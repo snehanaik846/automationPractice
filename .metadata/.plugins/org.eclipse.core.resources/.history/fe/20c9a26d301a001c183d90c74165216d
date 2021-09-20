@@ -16,7 +16,7 @@ public class ActionsEngine {
 			try {
 				element.sendKeys(valueToBeSent);
 				//log success message in exgent report
-				ExtentFactory.getInstance().getExtent().log(Status.PASS, fieldName+"==> Entered value as: "+valueToBeSent);
+				ExtentFactory.getInstance().getExtent().log(Status.PASS, fieldName+"==> Ented value as: "+valueToBeSent);
 			} catch (Exception e) {
 				//log failure in extent
 				ExtentFactory.getInstance().getExtent().log(Status.FAIL, "Value enter in field: "+fieldName + " is failed due to exception: "+e);
