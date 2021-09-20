@@ -1,0 +1,24 @@
+package Tests;
+
+import org.testng.annotations.Test;
+
+import com.github.dockerjava.api.model.Driver;
+
+import pageObjects.HomePageObjects;
+import pageObjects.LoginPageObjects;
+import testBase.DriverFactory;
+import testBase.testBase;
+
+public class LoginTest extends testBase{
+	LoginPageObjects loginpage = new LoginPageObjects();
+	HomePageObjects homepage = new HomePageObjects();
+@Test
+public void Logintest() throws Exception {
+	loginpage.Login("snehanaik846@gmail.com", "test@123");
+}
+
+@Test(Priority=1)
+public void HomePageTest() throws Exception {
+	homepage.clickOnMenu("Fruits & Vegetables");
+}
+}

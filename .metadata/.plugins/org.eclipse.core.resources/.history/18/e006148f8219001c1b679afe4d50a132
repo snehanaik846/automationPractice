@@ -1,0 +1,7 @@
+package pageObjects;
+
+public class LoginPageObjects {
+	@FindBy(xpath="//a[@title='Log In']")
+	WebElement LoginButton
+
+}

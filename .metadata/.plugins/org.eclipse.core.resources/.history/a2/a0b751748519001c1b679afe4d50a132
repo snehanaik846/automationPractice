@@ -1,0 +1,13 @@
+package testBase;
+
+import org.openqa.selenium.WebDriver;
+
+public class BrowserFactory {
+	
+	
+	//create webdriver object for given browser
+	public void createBrowserInstance(String browser) {
+		WebDriver driver;
+		if(browser.equalsIgnoreCase("chrome"))
+	}
+}

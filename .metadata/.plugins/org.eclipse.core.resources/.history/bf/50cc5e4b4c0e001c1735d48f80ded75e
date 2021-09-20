@@ -1,0 +1,12 @@
+package package1;
+
+public class UniqueChar {
+public static void Unichar(String str1) {
+	
+}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

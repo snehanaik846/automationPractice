@@ -1,0 +1,17 @@
+package Tests;
+
+import org.testng.annotations.Test;
+
+import com.github.dockerjava.api.model.Driver;
+
+import pageObjects.LoginPageObjects;
+import testBase.DriverFactory;
+import testBase.testBase;
+
+public class LoginTest extends testBase{
+	LoginPageObjects loginpage = new LoginPageObjects();
+@Test
+public void Logintest() {
+	System.out.println("login");
+}
+}

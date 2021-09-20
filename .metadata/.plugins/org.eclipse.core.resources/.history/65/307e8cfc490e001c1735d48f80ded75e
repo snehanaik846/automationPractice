@@ -1,0 +1,30 @@
+package package1;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class anagram {
+
+	public static boolean anagram(String str1, String str2) {
+		if(str1.length()==str2.length()) {
+			String sortedstr1=sortchar(str1);
+			String sortedstr1=sortchar(str1);
+
+		}
+	return true;
+
+	}
+	public static String sortchar(String word) {
+		char[] a=word.toCharArray();
+		Arrays.sort(a);
+		return String.valueOf(a);
+	}
+
+	public static void main(String[] args) {
+
+		String str1 = "dream";
+		String str2 = "hream";
+		System.out.println(anagram(str1, str2));
+	}
+
+}

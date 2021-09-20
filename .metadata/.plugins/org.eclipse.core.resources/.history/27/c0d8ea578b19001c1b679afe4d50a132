@@ -1,0 +1,6 @@
+package resuableComponents;
+
+public class PropertiesOperations {
+	static Properties = new Properties();
+
+}

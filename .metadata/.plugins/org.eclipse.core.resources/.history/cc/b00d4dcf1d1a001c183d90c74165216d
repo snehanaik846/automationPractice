@@ -1,0 +1,16 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import testBase.DriverFactory;
+
+public class HomePageObjects {
+	
+	public void clickOnMenu(String menu) {
+		String menupath="//ul[@id='mtnav']/li//following-sibling::a/span[text()='"+menu+"']";
+		DriverFactory.getInstance().getDriver().findElement(By.xpath(menupath)).click();
+	}
+
+}

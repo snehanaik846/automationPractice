@@ -1,0 +1,16 @@
+package package1;
+
+public class anagram {
+
+	public String anagram() {
+		String str1="Sneha";
+		String str2="Senha";
+		
+		return "anagrm";
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

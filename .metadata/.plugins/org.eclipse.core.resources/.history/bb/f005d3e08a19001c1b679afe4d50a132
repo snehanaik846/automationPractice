@@ -1,0 +1,16 @@
+package testBase;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeTest;
+
+public class testBase {
+	@BeforeTest
+	public void launchBrowser() {
+		DriverFactory.getInstance().setDriver(new BrowserFactory().createBrowserInstance("chrome"));
+		WebDriver driver=DriverFactory.getInstance().getDriver();
+		}
+
+	public void tearDown() {
+
+	}
+}

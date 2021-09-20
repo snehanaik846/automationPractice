@@ -1,0 +1,7 @@
+package testBase;
+
+public class testBase {
+	public void launchBrowser() {
+		
+	}
+}

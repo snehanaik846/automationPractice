@@ -1,0 +1,14 @@
+package package1;
+
+public class UniqueChar {
+public static void Unichar(String str1) {
+	char a=str1.toCharArray();
+	
+	
+}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

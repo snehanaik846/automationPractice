@@ -1,0 +1,14 @@
+package testBase;
+
+import org.testng.annotations.BeforeTest;
+
+public class testBase {
+	@BeforeTest
+	public void launchBrowser() {
+
+	}
+
+	public void tearDown() {
+
+	}
+}

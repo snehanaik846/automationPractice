@@ -1,0 +1,14 @@
+package package1;
+
+public class Palindrome {
+	public static String reverse(String input){
+		return input.charAt(input.length()- 1) + 
+				reverse(input.substring(0, input.length() - 1));
+}
+	public static void main(String[] args) {
+		String str1="Malayalam";
+		String reversestr1=reverse(str1);
+		System.out.println(reversestr1);
+	}
+
+}

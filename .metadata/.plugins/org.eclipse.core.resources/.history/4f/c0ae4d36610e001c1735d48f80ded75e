@@ -1,0 +1,14 @@
+package package1;
+
+public class SmallestLargestNoInArray {
+public static void arrangeArray(int array  []) {
+	int a=array[0] ;
+	
+
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

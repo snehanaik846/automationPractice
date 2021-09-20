@@ -1,0 +1,18 @@
+package package1;
+
+public class anagram {
+
+	public boolean anagram(String str1, string str2) {
+		String str1="Sneha";
+		String str2="Senha";
+		if(str1.length()==str2.length()) {
+			return true;
+		}
+		return false;
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package package1;
+
+public class squareroot{
+	
+}
+public class swapingtwoNo {
+
+	public static void main(String[] args) {
+		int a=34;
+		int b=5;
+		System.out.println("Before swapping= "+a+" and "+b);
+
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("After swapping= "+a+" and "+b);
+	}
+
+}

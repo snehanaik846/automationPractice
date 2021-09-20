@@ -1,0 +1,8 @@
+package testBase;
+
+public class BrowserFactory {
+
+	public void createBrowserInstance() {
+		
+	}
+}

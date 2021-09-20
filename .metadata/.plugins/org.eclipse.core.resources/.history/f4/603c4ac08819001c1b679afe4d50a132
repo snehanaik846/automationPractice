@@ -1,0 +1,8 @@
+package testBase;
+
+public class testBase {
+	@BeforeTest
+	public void launchBrowser() {
+		
+	}
+}
