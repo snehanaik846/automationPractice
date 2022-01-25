@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\sneha\eclipse-workspace\SeleniumAdvance"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -29,10 +30,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.seleniumbasic.seleniumbasic"/>
 		</list>
 		<list key="groupId">
+			<item value="com.seleniumbasic"/>
 		</list>
 		<list key="artifactId">
+			<item value="seleniumbasic"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -48,12 +52,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.SeleniumAdvance"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="SeleniumAdvance"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

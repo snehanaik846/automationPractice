@@ -26,7 +26,7 @@ public class anagram {
 	public static void main(String[] args) {
 
 		String str1 = "javas";
-		String str2 = "jaasv";
+		String str2 = "aajvs";
 		System.out.println(anagram(str1, str2));
 	}
 

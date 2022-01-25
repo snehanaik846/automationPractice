@@ -2,8 +2,9 @@ package package1;
 
 public class Palindrome {
 	public static void main(String args[]) {
-		System.out.println("Is malayalam palindrom?: " + isPalindromString("malayalam"));
-		System.out.println(vowels("sneha"));
+		//System.out.println("Is malayalam palindrom?: " + isPalindromString("malayalam"));
+		//System.out.println(vowels("sneha"));
+		ReverseWords();
 	}
 	public static boolean isPalindromString(String text) {
 		String reverse = reverse1(text).toString();
@@ -31,5 +32,16 @@ public class Palindrome {
         StringBuilder input1 = new StringBuilder(input);
         return input.toLowerCase().matches(".*[aeiou]*.");
         
+	}
+	public static void ReverseWords (){
+	    
+	      String s[] = "you shall not pass".split(" "); 
+	      String ans = ""; 
+	      System.out.println(s.length);
+	      for (int i = s.length - 1; i >= 0; i--) { 
+	        ans += s[i] + " "; 
+	        System.out.println(ans);
+	      } 
+	      System.out.println("Reversed String: " + ans); 
 	}
 }

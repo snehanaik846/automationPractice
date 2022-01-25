@@ -16,9 +16,12 @@ public class SmallestLargestNoInArray {
 			}
 
 		}
-		for(int i=0;i<a.length;i++) {
-			System.out.println(a[i]);
-
+//		for(int i=0;i<a.length;i++) {
+//			System.out.println(a[i]);
+//
+//		}
+		for(int x : a) {
+			System.out.println(x);
 		}
 		System.out.println("Largest Number:"+a[0]);
 		System.out.println("Smallest Number:"+a[4]);
