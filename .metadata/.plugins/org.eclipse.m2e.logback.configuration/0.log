@@ -4972,3 +4972,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.xm
 2022-01-25 15:12:45,869 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sneha\eclipse-workspace\SeleniumFlipcartProject\src\main\resources
 2022-01-25 15:12:45,870 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-01-25 15:12:45,870 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sneha\eclipse-workspace\SeleniumFlipcartProject\src\test\resources
+2022-01-25 15:20:51,107 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-25 15:20:51,108 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sneha\eclipse-workspace\SeleniumFlipcartProject\src\main\resources
+2022-01-25 15:20:51,108 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-25 15:20:51,108 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sneha\eclipse-workspace\SeleniumFlipcartProject\src\test\resources
